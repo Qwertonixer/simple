@@ -1,0 +1,244 @@
+* {
+    max-width: 1920px;
+}
+
+#header {
+    background: #EEEFF1;
+    height: 700px;
+    padding-left: 19%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42px;
+    position: absolute;
+    width: 646px;
+    height: 27px;
+    left: 399px;
+    top: 79px;
+}
+
+h1 {
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 399px;
+    top: 257px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+
+.lorem {
+    position: absolute;
+    width: 540px;
+    height: 67px;
+    left: 400px;
+    top: 362px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+a:hover {
+    color: #34547A;;
+}
+
+button {
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    left: 399px;
+    top: 494px;
+    background: #34547A;
+    border: none;
+}
+
+.write {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+/*Блок About Me*/
+
+#about {
+    position: absolute;
+    width: 403px;
+    height: 30px;
+    left: 758px;
+    top: 812px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding-bottom: 100px;
+}
+
+/*Блок Проекты*/
+
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+    background: #34547A;
+}
+
+.group {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.item, .items {
+    display: inline-block;
+}
+
+.numbers {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.numbers img {
+    max-width:100%;
+}
+
+.group h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.group p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 4px;
+}
+
+.items {
+    padding-left: 300px;
+}
+
+.item {
+    margin: 100px 45px;
+}
+
+/*Блок видео*/
+
+.video {
+    position: absolute;
+    width: 1920px;
+    height: 1004px;
+    left: 0px;
+    top: 1309px;
+    background: #EEEFF1;
+}
+
+.work {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.work_lorem {
+    margin: 50px 690px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+iframe {
+    width: 1110px;
+    height: 600px;
+    left: 405px;
+    top: 1613px;
+    margin: 57px 405px 100px 405px;
+}
+
+/*Подвал*/
+
+footer {
+    position: absolute;
+    width: 1920px;
+    height: 151px;
+    left: 0px;
+    top: 2313px;
+    background: #34547A;
+}
+
+.author {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.rights {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#author {
+    margin-top: 50px;
+    margin-left: 409px;
+}
