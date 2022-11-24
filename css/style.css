@@ -1,74 +1,62 @@
-* {
-    max-width: 1920px;
-}
-
-#header {
+header {
     background: #EEEFF1;
-    height: 700px;
-    padding-left: 19%;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 42px;
-    position: absolute;
-    width: 646px;
-    height: 27px;
-    left: 399px;
-    top: 79px;
+.container {
+    width: 1100px;
+    margin: 0 auto;
 }
 
-h1 {
-    position: absolute;
-    width: 541px;
-    height: 45px;
-    left: 399px;
-    top: 257px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 79px;
-}
-
-.lorem {
-    position: absolute;
-    width: 540px;
-    height: 67px;
-    left: 400px;
-    top: 362px;
+.nav {
+    padding-top: 79px;
+    margin-bottom: 151px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #727272;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    margin-right: 42px;
 }
 
-a:hover {
-    color: #34547A;;
+nav a:last-child {
+    margin-right: 0;
 }
 
-button {
-    position: absolute;
-    width: 225px;
-    height: 65px;
-    left: 399px;
-    top: 494px;
-    background: #34547A;
-    border: none;
+nav a:hover {
+    text-decoration: underline;
+    color: #34547A;
 }
 
-.write {
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 60px;
+}
+
+.lorem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    max-width: 540px;
+    margin-bottom: 65px;
+}
+
+.btn {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -77,16 +65,23 @@ button {
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    cursor: pointer;
+    background: #34547A;
+    border: none;
+    padding: 19px 41px;
+    margin-bottom: 141px;
+    transition: transform 0.5s;
+}
+
+.btn:hover {
+    background: #4772a7;
+    transform: scale(1.1);
 }
 
 /*Блок About Me*/
 
 #about {
-    position: absolute;
-    width: 403px;
-    height: 30px;
-    left: 758px;
-    top: 812px;
+    padding-top: 112px;
 }
 
 h2 {
@@ -96,6 +91,7 @@ h2 {
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .about {
@@ -106,18 +102,25 @@ h2 {
     line-height: 26px;
     text-align: center;
     color: #727272;
-    padding-bottom: 100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 540px;
 }
 
-/*Блок Проекты*/
+/* 40+ */
 
-.container {
-    position: absolute;
-    width: 1920px;
-    height: 250px;
-    left: 0px;
-    top: 1059px;
+.items {
     background: #34547A;
+    padding-top: 100px;
+}
+
+.item {
+    margin-bottom: 100px;
+    transition: transform 0.5s;
+}
+
+.item:hover {
+    transform: scale(1.15);
 }
 
 .group {
@@ -131,18 +134,19 @@ h2 {
     margin-left: 20px;
 }
 
-.item, .items {
+.item {
     display: inline-block;
+    margin-right: 49px;
+}
+
+.item:last-child {
+    margin: 0;
 }
 
 .numbers {
     display: inline-block;
     width: 50px;
     height: 50px;
-}
-
-.numbers img {
-    max-width:100%;
 }
 
 .group h3 {
@@ -165,39 +169,28 @@ h2 {
     margin-top: 4px;
 }
 
-.items {
-    padding-left: 300px;
-}
-
-.item {
-    margin: 100px 45px;
-}
-
 /*Блок видео*/
 
-.video {
-    position: absolute;
-    width: 1920px;
-    height: 1004px;
-    left: 0px;
-    top: 1309px;
+ .video {
+    padding-top: 100px;
     background: #EEEFF1;
 }
 
 .work {
-    margin-top: 100px;
     text-align: center;
 }
 
 .work_lorem {
-    margin: 50px 690px;
-    text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    text-align: center;
     color: #727272;
+    margin: 0 auto;
+    margin-bottom: 57px;
+    max-width: 540px;
 }
 
 iframe {
@@ -205,17 +198,12 @@ iframe {
     height: 600px;
     left: 405px;
     top: 1613px;
-    margin: 57px 405px 100px 405px;
+    margin-bottom: 100px;
 }
 
 /*Подвал*/
 
 footer {
-    position: absolute;
-    width: 1920px;
-    height: 151px;
-    left: 0px;
-    top: 2313px;
     background: #34547A;
 }
 
@@ -239,6 +227,5 @@ footer {
 }
 
 #author {
-    margin-top: 50px;
-    margin-left: 409px;
+    padding: 50px 0 50px 0;
 }
